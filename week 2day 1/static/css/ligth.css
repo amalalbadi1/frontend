@@ -1,0 +1,53 @@
+.ligth{
+    width: 250px;
+    height: 250px;
+    /* background-color: blue; */
+    animation-name: an;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    border: 20px solid rgb(19, 16, 16);
+    /* border-top-color: black; */
+    
+}
+/* @keyframes an{
+
+    0%{
+        background-color: #fb2504;
+        border-top: 0;
+    }
+    25%{
+    background-color: #b8d31f;
+    border-left: 0;
+    }
+    70%{
+        background-color: rgb(79, 243, 19);
+        border-right: 0;
+    }
+    
+} */
+
+.p{
+    
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 20px solid rgb(50, 152, 199);
+    border-top-color: blue;
+    animation-name: am;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes am{
+    from{
+transform: rotate(-360deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+}

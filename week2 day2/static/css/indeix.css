@@ -1,0 +1,36 @@
+.parint{
+  height: 250px;
+  width: 70%;
+  margin: 5% auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,1fr);
+  border: 3px rebeccapurple;
+  background-color: aquamarine;
+}
+
+.chaid1{
+  grid-row: 1/4;
+  grid-column:1/3 ;
+  background-image: url("../imag/photo-1685215902365-8283bb3bed69.avif");
+  background-size: 100% 100%;
+}
+.chaid2{
+
+  grid-row:4/6 ;
+  grid-column: 1/3;
+  background-image: url("../imag/premium_photo-1677354136235-a3cb4041cd79.avif");
+  background-size: 100% 100%;
+}
+.chaid3{
+  grid-row: 1/3;
+  grid-column: 3/5;
+  background-image: url("../imag/photo-1685714629963-2f078268e215.avif");
+  background-size: 100% 100%;
+}
+.chaid4{
+  grid-row: 3/6;
+  grid-column: 3/5;
+  background-image: url("../imag/photo-1685602729758-cecb632237a6.avif");
+  background-size: 100% 100%;
+}

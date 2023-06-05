@@ -1,0 +1,17 @@
+.parent{
+height: 100vh; 
+position: relative;
+display: flex;
+background-color: aquamarine;
+justify-content: space-between;
+/* align-items: center; */
+/* bottom: 0; */
+/* right: 0; */
+
+}
+
+.item{
+    height: 10vh;
+    width:30vw ;
+    background-color: bisque;
+}

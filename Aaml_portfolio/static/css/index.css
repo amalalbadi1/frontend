@@ -1,0 +1,45 @@
+body {
+    background-image: url("../images/jess-bailey-q10VITrVYUM-unsplash.jpg");
+    background-repeat: no-repeat;
+  }
+  .center {
+    background-color:#D7C0AE ;
+        margin: auto;
+        width: 50%;
+        border: 3px solid rgb(7, 8, 7);
+        padding: 100px;
+        padding-top: 100px;
+        border-radius: 10%;
+  }
+.link{
+    margin: auto;
+        width: 50%;
+        /* border: 3px solid rgb(7, 8, 7); */
+        padding: 20px;
+        padding-top:70px;
+        
+}
+h1{
+    font-family: Brush Script MT;
+    font-size: 100px;
+}
+p{
+    font-family: Elephant;
+}
+.button {
+    background-color: #D7C0AE;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 50%;
+    
+}
+/* 
+img {
+    float: right;
+} */

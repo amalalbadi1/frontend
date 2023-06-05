@@ -1,0 +1,32 @@
+body{
+    height: 500vh;
+    /* background-color: rgb(80, 119, 106); */
+    z-index: -1;
+}
+.one{
+    height: 10vh;
+    width: 100%;
+    position:sticky;
+    background-color: rgb(128, 232, 197);
+    top: 0%;
+ z-index: 100;
+   
+    
+/*     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%); */
+    border: 1px dashed rgb(57, 40, 20);
+}
+.tow{
+    height: 10vh;
+    width: 5vw;
+    display: block;
+    text-align:center;
+    font-weight: bolder;
+    
+    position:fixed;
+bottom: 0;
+    background-color: rgb(214, 82, 153);
+}
