@@ -1,0 +1,21 @@
+body {
+   
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(241, 165, 59, 0.2);
+  }
+
+  .section{
+ 
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(165, 135, 93, 0.5);
+  }
+
+  .section2{
+
+   
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(27, 24, 20, 0.2);
+  }
